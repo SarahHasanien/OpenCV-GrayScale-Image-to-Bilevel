@@ -41,7 +41,7 @@ int main(int argc, char** argv)
 	vector <vector <int>>arr=convertImageToBinaryData("gurl.jpg", 180);
 	Mat originalGrayScaled = imread("gurl.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 	Mat bilevel = imread("gurl.jpg" ,CV_LOAD_IMAGE_GRAYSCALE);
-	//The following for loop puts white or black in test2 image depending on the corresponding 
+	//The following for loop puts white or black in bilevel image depending on the corresponding 
 	//value in the 2d vector returned from the function
 	for (int r = 0; r < bilevel.rows; r++)
 	{
