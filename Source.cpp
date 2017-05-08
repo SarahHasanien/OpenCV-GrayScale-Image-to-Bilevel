@@ -54,7 +54,7 @@ int main(int argc, char** argv)
 
 		}
 	}
-	imshow("Grayscale", originalGrayScaled);//Not actually needed. Just tovisualize the differences between the 2 images
+	imshow("Grayscale", originalGrayScaled);//Not actually needed. Just to visualize the differences between the 2 images
 	imshow("Bilevel", bilevel);
 	waitKey();
 	return 0;
